@@ -1,22 +1,42 @@
 body{
+    
+    background-image: url("bg-main-desktop.png");
+    background-repeat: no-repeat;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 18px;
 }
 
 .containerf{
+    margin-left: 100px;
+    margin-top: 60px;
     
-    margin-left: 80px;
-    margin-top: 100px;
-    border-radius: 10px;
+    
 
 }
 
 .containerv{
-    width: 300px;
-    height: 170px;
-    background-color: hsl(270, 3%, 87%);
-    margin-left: 150px;
-    margin-top: 20px;
-    border-radius: 10px;
-    
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.containerd{
+    display: flex;
+    flex-direction: column;
+    margin-top: -500px;
+    margin-left: 60%;
+    color: hsl(278, 68%, 11%);
+}
+
+#ladoalado{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: hsl(278, 68%, 11%);
+}
+
+#confirme{
+    text-align: left;
+    border: 20px 20px;
+    background-color: hsl(278, 68%, 11%) ;
+    color:white;
 }
