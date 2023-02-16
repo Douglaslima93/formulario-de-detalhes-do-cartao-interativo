@@ -3,13 +3,14 @@ body{
     background-image: url("bg-main-desktop.png");
     background-repeat: no-repeat;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     overflow: hidden;    
 }
 
 .containerf{
     margin-left: 100px;
     margin-top: 90px;
+   
 }
 
 .containerv{
@@ -19,7 +20,7 @@ body{
 
 .containerd{
     color: hsl(278, 68%, 11%);
-    width: 600px;
+    width: 522px;
     margin-left: 50%;
     position: relative;
     top:-450px; 
@@ -37,6 +38,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
 
 .containerd #data{
@@ -54,12 +56,13 @@ body{
 }
 
 #confirme{
-    text-align: left;
-    border: 20px 20px;
+    text-align: center;
+    border-radius: 5px;
     background-color: hsl(278, 68%, 11%) ;
     color:white;
     cursor: pointer;
-    width: 500px;
+    width: 502px;
+    padding: 10px;
 }
 
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartão Interativo</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="./scripts.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
       </style>
@@ -14,6 +15,8 @@
 <body>
     <div id="frente" class="containerf">
         <img src="bg-card-front.png">
+        <p id="num">Numero</p>
+        
     </div>
 
     <div id="verso" class="containerv">
@@ -24,14 +27,14 @@
     <div id="dados" class="containerd">
 
         <p>NOME DO TITULAR</p>
-    <input type="text" id="texto" placeholder="">
+    <input type="text" id="texto" onclick="insert('')">
 
         <P>NUMERO DO CARTÃO</P>
-    <input type="text" id="texto" placeholder="">
+    <input type="text" id="texto">
 
         <div id="ladoalado">
-        <P>DATA EXPEDIÇÃO (MÊS/ANO)</P>
-        <input type="date" id="data" placeholder="">
+        <P>DATA EXP (MÊS/ANO)</P>
+        <input type="date" id="data">
 
         <P>CVC</P>
         <input type="number" id="data" placeholder="">
