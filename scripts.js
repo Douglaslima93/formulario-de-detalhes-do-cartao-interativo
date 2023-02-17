@@ -1,4 +1,6 @@
 
 function insert(texto){
-    document.getElementById('texto').innerHTML;
+
+    var titular = document.getElementById('texto').innerHTML;
+    document.getElementById('titular').innerHTML = titular;  
 }

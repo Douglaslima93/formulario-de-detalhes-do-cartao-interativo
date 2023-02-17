@@ -4,16 +4,19 @@ body{
     background-repeat: no-repeat;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 15px;
-    overflow: hidden;    
+    overflow: auto;    
 }
 
 .containerf{
+    display:inline-block;
+    position: relative;
     margin-left: 100px;
     margin-top: 90px;
    
 }
 
 .containerv{
+    
     margin-left: 250px;
     margin-top: 10px;
 }
@@ -64,6 +67,41 @@ body{
     width: 502px;
     padding: 10px;
 }
+
+.containerf #num{
+    position: absolute;
+    font-size: 30px;
+    top: 100px;
+    left: 50px;
+    color: white;
+    
+}
+
+.containerf #titular{
+    position: absolute;
+    font-size: 20px;
+    top: 170px;
+    left: 50px;
+    color: white;
+}
+
+.containerf #validade{
+    position: absolute;
+    font-size: 20px;
+    top: 170px;
+    left: 350px;
+    color: white;
+}
+
+.containerv #cvc{
+    position: absolute;
+    font-size: 15px;
+    top: 455px;
+    left: 610px;
+    color: white;
+}
+
+
 
 
 
