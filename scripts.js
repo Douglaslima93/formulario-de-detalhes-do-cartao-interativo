@@ -1,6 +1,7 @@
 
-function insert(texto){
-
-    var titular = document.getElementById('texto').innerHTML;
-    document.getElementById('titular').innerHTML = titular;  
+document.addEventListener('input', holderFunc)
+function holderFunc(){
+    
+    titular.innerHTML = texto.value
+    
 }

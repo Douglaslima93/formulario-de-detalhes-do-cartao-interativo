@@ -15,8 +15,8 @@
 <body>
     <div id="frente" class="containerf">
         <img src="bg-card-front.png">
-        <p id="num">0000 0000 0000 0000</p>
-        <p id="titular">Nome</p>
+        <p id="num">1234 5678 9123</p>
+        <p id="titular">Jane Appleseed</p>
         <p id="validade">00/00</p>
     </div>
 
@@ -28,20 +28,20 @@
 
     <div id="dados" class="containerd">
 
-        <p>NOME DO TITULAR</p>
-    <input type="text" id="texto" maxlength="30" onclick="insert('')">
+        <p>CARDHOLDER NAME</p>
+    <input type="text" id="texto" nome="cardholderName" onclick="insert('')" placeholder="e.g Jane Appleseed">
 
-        <P>NUMERO DO CARTÃO</P>
-    <input type="number" id="texto" maxlength="19" onclick="insert('')">
+        <P>CARD NUMBER</P>
+    <input type="number" id="texto" maxlength="19" onclick="insert('')" placeholder="e.g 1234 5678 9123 0000">
 
         <div id="ladoalado">
-        <P>DATA EXP (MÊS/ANO)</P>
+        <P>EXP. DATE (MM/YY)</P>
         <input type="date" id="data">
 
         <P>CVC</P>
-        <input type="number" id="data" maxlength="3" onclick="insert('')">
+        <input type="number" id="data" maxlength="3" onclick="insert('')" placeholder="e.g.123">
     </div>
-    <p id="confirme">Confirme</p>
+    <p id="confirme">Confirm</p>
     </div>
     
 </body>
