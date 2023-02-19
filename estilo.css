@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 15px;
-    overflow: auto;    
+    overflow: hidden;    
 }
 
 .containerf{
