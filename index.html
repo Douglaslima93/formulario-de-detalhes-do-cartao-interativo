@@ -29,17 +29,17 @@
     <div id="dados" class="containerd">
 
         <p>CARDHOLDER NAME</p>
-    <input type="text" id="texto" nome="cardholderName" onclick="insert('')" placeholder="e.g Jane Appleseed">
+    <input onkeyup="input()" type="text" id="texto" onclick="insert('')" placeholder="e.g Jane Appleseed">
 
         <P>CARD NUMBER</P>
-    <input type="number" id="texto" maxlength="19" onclick="insert('')" placeholder="e.g 1234 5678 9123 0000">
+    <input onkeyup="inputnumber()" type="number" id="numero" maxlength="19" onclick="insert('')" placeholder="e.g 1234 5678 9123 0000">
 
         <div id="ladoalado">
         <P>EXP. DATE (MM/YY)</P>
-        <input type="date" id="data">
+        <input onkeyup="inputdata()" type="texto" id="data">
 
         <P>CVC</P>
-        <input type="number" id="data" maxlength="3" onclick="insert('')" placeholder="e.g.123">
+        <input onkeyup="inputcvc()" type="number" id="codigo" maxlength="3" onclick="insert('')" placeholder="e.g.123">
     </div>
     <p id="confirme">Confirm</p>
     </div>
